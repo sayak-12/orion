@@ -384,3 +384,41 @@ ul, ol{
     }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section{
+        flex-direction: column;
+        .left, .right{
+            width: 100%;
+        }
+        &.two{
+            margin-top: 2em;
+        }
+        .flyer{
+            display: none;
+        }
+    }
+    .row{
+        justify-content: center;
+        gap: 1em;
+        height: max-content;
+        .right{
+            flex-wrap: wrap;
+        }
+    }
+    .section.three.next{
+        flex-direction: column-reverse;
+    }
+    .circle{
+        display: none !important;
+    }
+    .righttext{
+        width: 100% !important;
+    }
+    .alertin{
+        height: max-content;
+        h3{
+            position: relative !important;
+        }
+    }
+}

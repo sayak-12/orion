@@ -381,4 +381,44 @@ ul, ol {
   border: none;
   background-color: #06286E;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+  .section .left, .section .right {
+    width: 100%;
+  }
+  .section.two {
+    margin-top: 2em;
+  }
+  .section .flyer {
+    display: none;
+  }
+  .row {
+    justify-content: center;
+    gap: 1em;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .row .right {
+    flex-wrap: wrap;
+  }
+  .section.three.next {
+    flex-direction: column-reverse;
+  }
+  .circle {
+    display: none !important;
+  }
+  .righttext {
+    width: 100% !important;
+  }
+  .alertin {
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .alertin h3 {
+    position: relative !important;
+  }
 }/*# sourceMappingURL=style.css.map */
