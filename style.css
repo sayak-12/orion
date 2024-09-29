@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 nav {
@@ -414,11 +415,7 @@ ul, ol {
   .righttext {
     width: 100% !important;
   }
-  .alertin {
-    height: -moz-max-content;
-    height: max-content;
-  }
-  .alertin h3 {
-    position: relative !important;
+  .alert {
+    display: none !important;
   }
 }/*# sourceMappingURL=style.css.map */
